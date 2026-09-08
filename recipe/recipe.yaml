@@ -37,6 +37,7 @@ requirements:
     - pyyaml >=6.0
     - typer >=0.9
     - rich >=13.0
+    - ipython >=8.0
 
 tests:
   - python:
