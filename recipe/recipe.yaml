@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  python_min: 3.12
+  python_min: "3.12"
   version: "0.1.2"
 
 package:
@@ -43,6 +43,9 @@ tests:
   - python:
       imports:
         - pypsa_explorer
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - requirements:
       run:
         - pip
